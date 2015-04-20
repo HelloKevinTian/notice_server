@@ -6,7 +6,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res) {
-    res.render('announcement_240_000020', { title: 'Express' });
+    res.render('announcement_240_000066', { title: 'Express' });
 });
 
 module.exports = router;
