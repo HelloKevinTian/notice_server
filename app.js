@@ -61,10 +61,12 @@ var announcement_240 = require('./routes/announcement_240');
 var announcement_240_000020 = require('./routes/announcement_240_000020');
 var announcement_240_000066 = require('./routes/announcement_240_000066');
 var announcement_240_000078 = require('./routes/announcement_240_000078');
+var announcement_240_000023 = require('./routes/announcement_240_000023');
 
 var announcement_250 = require('./routes/announcement_250');
 var announcement_250_000066 = require('./routes/announcement_250_000066');
 var announcement_250_000078 = require('./routes/announcement_250_000078');
+var announcement_250_000023 = require('./routes/announcement_250_000023');
 
 var rewardlist_seoul_200 = require('./routes/rewardlist_seoul_200');
 var rewardlist_seoul_200_000005 = require('./routes/rewardlist_seoul_200_000005');
@@ -166,10 +168,12 @@ app.use('/announcement_240', announcement_240);
 app.use('/announcement_240_000020', announcement_240_000020);
 app.use('/announcement_240_000066', announcement_240_000066);
 app.use('/announcement_240_000078', announcement_240_000078);
+app.use('/announcement_240_000023', announcement_240_000023);
 
 app.use('/announcement_250', announcement_250);
 app.use('/announcement_250_000066', announcement_250_000066);
 app.use('/announcement_250_000078', announcement_250_000078);
+app.use('/announcement_250_000023', announcement_250_000023);
 
 app.use('/rewardlist_seoul_200', rewardlist_seoul_200);
 app.use('/rewardlist_seoul_200_000005', rewardlist_seoul_200_000005);
