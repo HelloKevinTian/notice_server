@@ -100,6 +100,9 @@ var rewardlist_seoul_220_000442 = require('./routes/rewardlist_seoul_220_000442'
 var rewardlist_seoul_230 = require('./routes/rewardlist_seoul_230');
 var index_mm = require('./routes/index_mm');
 
+//小包公告
+var announcement_rmlite_120 = require('./routes/announcement_rmlite_120');
+
 var app = express();
 
 // view engine setup
@@ -210,6 +213,8 @@ app.use('/rewardlist_seoul_220_000442', rewardlist_seoul_220_000442);
 
 app.use('/rewardlist_seoul_230', rewardlist_seoul_230);
 app.use('/index_mm', index_mm);
+
+app.use('/announcement_rmlite_120', announcement_rmlite_120);
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {
