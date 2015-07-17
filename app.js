@@ -108,6 +108,8 @@ var index_mm = require('./routes/index_mm');
 var announcement_rmlite_110 = require('./routes/announcement_rmlite_110');
 var announcement_rmlite_110_111225 = require('./routes/announcement_rmlite_110_111225');
 var announcement_rmlite_120 = require('./routes/announcement_rmlite_120');
+var announcement_rmlite_120_111225 = require('./routes/announcement_rmlite_120_111225');
+var announcement_rmlite_120_111263 = require('./routes/announcement_rmlite_120_111263');
 
 var app = express();
 
@@ -227,6 +229,8 @@ app.use('/index_mm', index_mm);
 app.use('/announcement_rmlite_110', announcement_rmlite_110);
 app.use('/announcement_rmlite_110_111225', announcement_rmlite_110_111225);
 app.use('/announcement_rmlite_120', announcement_rmlite_120);
+app.use('/announcement_rmlite_120_111225', announcement_rmlite_120_111225);
+app.use('/announcement_rmlite_120_111263', announcement_rmlite_120_111263);
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {
