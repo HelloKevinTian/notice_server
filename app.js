@@ -63,11 +63,13 @@ var announcement_240_000020 = require('./routes/announcement_240_000020');
 var announcement_240_000066 = require('./routes/announcement_240_000066');
 var announcement_240_000078 = require('./routes/announcement_240_000078');
 var announcement_240_000023 = require('./routes/announcement_240_000023');
+var announcement_240_000054 = require('./routes/announcement_240_000054');
 
 var announcement_250 = require('./routes/announcement_250');
 var announcement_250_000066 = require('./routes/announcement_250_000066');
 var announcement_250_000078 = require('./routes/announcement_250_000078');
 var announcement_250_000023 = require('./routes/announcement_250_000023');
+var announcement_250_000054 = require('./routes/announcement_250_000054');
 
 var announcement_260 = require('./routes/announcement_260');
 var announcement_260_000066 = require('./routes/announcement_260_000066');
@@ -110,6 +112,7 @@ var announcement_rmlite_110_111225 = require('./routes/announcement_rmlite_110_1
 var announcement_rmlite_120 = require('./routes/announcement_rmlite_120');
 var announcement_rmlite_120_111225 = require('./routes/announcement_rmlite_120_111225');
 var announcement_rmlite_120_111263 = require('./routes/announcement_rmlite_120_111263');
+var announcement_rmlite_120_000066 = require('./routes/announcement_rmlite_120_000066');
 
 var app = express();
 
@@ -184,11 +187,13 @@ app.use('/announcement_240_000020', announcement_240_000020);
 app.use('/announcement_240_000066', announcement_240_000066);
 app.use('/announcement_240_000078', announcement_240_000078);
 app.use('/announcement_240_000023', announcement_240_000023);
+app.use('/announcement_240_000054', announcement_240_000054);
 
 app.use('/announcement_250', announcement_250);
 app.use('/announcement_250_000066', announcement_250_000066);
 app.use('/announcement_250_000078', announcement_250_000078);
 app.use('/announcement_250_000023', announcement_250_000023);
+app.use('/announcement_250_000054', announcement_250_000054);
 
 app.use('/announcement_260', announcement_260);
 app.use('/announcement_260_000066', announcement_260_000066);
@@ -231,6 +236,7 @@ app.use('/announcement_rmlite_110_111225', announcement_rmlite_110_111225);
 app.use('/announcement_rmlite_120', announcement_rmlite_120);
 app.use('/announcement_rmlite_120_111225', announcement_rmlite_120_111225);
 app.use('/announcement_rmlite_120_111263', announcement_rmlite_120_111263);
+app.use('/announcement_rmlite_120_000066', announcement_rmlite_120_000066);
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {
