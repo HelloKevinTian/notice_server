@@ -120,6 +120,7 @@ var announcement_rmlite_120_111263 = require('./routes/announcement_rmlite_120_1
 var announcement_rmlite_120_000066 = require('./routes/announcement_rmlite_120_000066');
 var announcement_rmlite_120_000016 = require('./routes/announcement_rmlite_120_000016');
 var announcement_rmlite_120_000000 = require('./routes/announcement_rmlite_120_000000');
+var announcement_rmlite_120_000994 = require('./routes/announcement_rmlite_120_000994');
 
 var announcement_rmlite_130 = require('./routes/announcement_rmlite_130');
 
@@ -253,6 +254,7 @@ app.use('/announcement_rmlite_120_111263', announcement_rmlite_120_111263);
 app.use('/announcement_rmlite_120_000066', announcement_rmlite_120_000066);
 app.use('/announcement_rmlite_120_000016', announcement_rmlite_120_000016);
 app.use('/announcement_rmlite_120_000000', announcement_rmlite_120_000000);
+app.use('/announcement_rmlite_120_000994', announcement_rmlite_120_000994);
 
 app.use('/announcement_rmlite_130', announcement_rmlite_130);
 
