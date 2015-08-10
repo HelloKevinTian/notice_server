@@ -118,6 +118,8 @@ var announcement_rmlite_120 = require('./routes/announcement_rmlite_120');
 var announcement_rmlite_120_111225 = require('./routes/announcement_rmlite_120_111225');
 var announcement_rmlite_120_111263 = require('./routes/announcement_rmlite_120_111263');
 var announcement_rmlite_120_000066 = require('./routes/announcement_rmlite_120_000066');
+var announcement_rmlite_120_000016 = require('./routes/announcement_rmlite_120_000016');
+var announcement_rmlite_120_000000 = require('./routes/announcement_rmlite_120_000000');
 
 var app = express();
 
@@ -247,6 +249,8 @@ app.use('/announcement_rmlite_120', announcement_rmlite_120);
 app.use('/announcement_rmlite_120_111225', announcement_rmlite_120_111225);
 app.use('/announcement_rmlite_120_111263', announcement_rmlite_120_111263);
 app.use('/announcement_rmlite_120_000066', announcement_rmlite_120_000066);
+app.use('/announcement_rmlite_120_000016', announcement_rmlite_120_000016);
+app.use('/announcement_rmlite_120_000000', announcement_rmlite_120_000000);
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {
