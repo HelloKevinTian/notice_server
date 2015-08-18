@@ -128,6 +128,9 @@ var announcement_rmlite_120_000056 = require('./routes/announcement_rmlite_120_0
 var announcement_rmlite_130 = require('./routes/announcement_rmlite_130');
 var announcement_rmlite_130_000056 = require('./routes/announcement_rmlite_130_000056');
 
+//wanwan
+var announcement_wanwan_110 = require('./routes/announcement_wanwan_110');
+
 var app = express();
 
 // view engine setup
@@ -265,6 +268,9 @@ app.use('/announcement_rmlite_120_000056', announcement_rmlite_120_000056);
 
 app.use('/announcement_rmlite_130', announcement_rmlite_130);
 app.use('/announcement_rmlite_130_000056', announcement_rmlite_130_000056);
+
+//wanwan
+app.use('/announcement_wanwan_110', announcement_wanwan_110);
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {
