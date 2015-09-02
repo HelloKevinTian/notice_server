@@ -128,6 +128,8 @@ var announcement_rmlite_120_000056 = require('./routes/announcement_rmlite_120_0
 var announcement_rmlite_130 = require('./routes/announcement_rmlite_130');
 var announcement_rmlite_130_000056 = require('./routes/announcement_rmlite_130_000056');
 
+var announcement_rmlite_140 = require('./routes/announcement_rmlite_140');
+
 //wanwan
 var announcement_wanwan_110 = require('./routes/announcement_wanwan_110');
 
@@ -268,6 +270,8 @@ app.use('/announcement_rmlite_120_000056', announcement_rmlite_120_000056);
 
 app.use('/announcement_rmlite_130', announcement_rmlite_130);
 app.use('/announcement_rmlite_130_000056', announcement_rmlite_130_000056);
+
+app.use('/announcement_rmlite_140', announcement_rmlite_140);
 
 //wanwan
 app.use('/announcement_wanwan_110', announcement_wanwan_110);
