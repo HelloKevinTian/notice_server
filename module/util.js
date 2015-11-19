@@ -32,7 +32,7 @@ utils.getWeekDesc = function () {
     var week_later_now = now +  1000 * 60 * 60 * 24 * (interval_week_later_day - 1) //  for 23:59
     var week_later_date = new Date(week_later_now);
     //2014年12月10日0:00～12月16日23:59
-    var date_desc = week_before_date.getFullYear() + "年" + (week_before_date.getMonth() + 1) + "月" + week_before_date.getDate() + "日0:00～" ;
-    date_desc += week_later_date.getFullYear() + "年" + (week_later_date.getMonth() + 1) + "月" + week_later_date.getDate() + "日23:59";
+    var date_desc = week_before_date.getFullYear() + "-" + (week_before_date.getMonth() + 1) + "-" + week_before_date.getDate() + " 0:00～" ;
+    date_desc += week_later_date.getFullYear() + "-" + (week_later_date.getMonth() + 1) + "-" + week_later_date.getDate() + " 23:59";
     return date_desc;
 };
